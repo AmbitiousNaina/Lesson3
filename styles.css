@@ -2,11 +2,15 @@
 
 
 :root{
-    --primary-color:gray ;
+    --primary-color: #FCA5A5  ;
 }
 
 body{
     font-family: 'PT Sans Narrow', sans-serif;
+}
+
+hr{
+    margin:2rem 0rem;
 }
 
 /** Container **/
