@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color:red ;
+    --primary-color:gray ;
 }
 
 body{
@@ -21,7 +21,21 @@ body{
 }
 
 /** Links **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
 
-.primary-link{
-    color: var(--primary-color)
+.link-primary{
+    background-color: var(--primary-color);
+    color:white;
+    border-radius: 0.5rem;
+      }
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    
 }
