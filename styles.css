@@ -3,6 +3,7 @@
 
 :root{
     --primary-color: #FCA5A5  ;
+    --light-gray: #94A3B8;
 }
 
 body{
@@ -43,7 +44,8 @@ hr{
     border: 1px solid var(--primary-color);
     
 }
-
+ 
+/**List**/
 .list-non-bullet{
     list-style: none;
 }
@@ -53,6 +55,7 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+/**Navigation**/
 .navigation{
     background-color: var(--primary-color);
     color: white;
@@ -76,12 +79,26 @@ hr{
     font-weight: bold;
 }
 
+/** Header **/
+.hero{
+    padding: 2rem;
+}
 
+.hero .hero-image{
+    max-width: 350px;
+    margin:auto;
+    display: block;
+}
 
-
-
-
-
+.hero .hero-heading{
+    text-align: center;
+color: var(--light-gray)
+    
+}
+ 
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
 
 
 
