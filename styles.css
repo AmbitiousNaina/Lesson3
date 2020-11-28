@@ -14,6 +14,10 @@ body{
 
 }
 
+.margin-md{
+    margin:2rem;
+}
+
 hr{
     margin:2rem 0rem;
 }
@@ -27,6 +31,7 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    padding-block-end: 3rem;
 }
 
 /** Links **/
