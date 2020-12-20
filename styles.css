@@ -58,6 +58,9 @@ hr{
     
 }
  
+.list-bullet{
+    list-style: bullet;
+}
 /**List**/
 .list-non-bullet{
     list-style: none;
@@ -105,6 +108,7 @@ hr{
 
 .hero .hero-heading{
     text-align: center;
+    font-size: 4rem;
 color: var(--light-gray)
     
 }
