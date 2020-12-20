@@ -6,12 +6,13 @@
     --primary-color: #FCA5A5  ;
     --light-gray: #94A3B8;
     --offwhite:#E2E8F0;
+   
 }
 
 body{
     font-family: "Langar", cursive;
     margin: 0px
-
+   
 }
 
 .margin-md{
@@ -32,6 +33,7 @@ hr{
     max-width: 600px;
     margin: auto;
     padding-block-end: 3rem;
+    font-size: 1.7vw;
 }
 
 /** Links **/
